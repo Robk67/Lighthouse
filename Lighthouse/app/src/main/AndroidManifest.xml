@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lighthouse.finallh">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".filterEvent"
+            android:label="@string/title_activity_filter_event"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addEvent"
+            android:label="@string/title_activity_add_event"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".view" />
+        <activity
+            android:name=".MapInit"
+            android:label="@string/title_activity_map_init"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBFl5NpECCBH5ZkT3lCNN5hLKiaCcEAJwA" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".FirebaseInit"
+            android:label="@string/title_activity_firebase_init"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayEventsByTags"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventListNames"
+            android:label="@string/title_activity_event_list_names"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplaySingleEvent"
+            android:label="@string/title_activity_event_list_names"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FilterEventByLocation"
+            android:label="@string/title_activity_filter_event_by_locatin"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

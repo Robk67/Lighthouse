@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LightHouse</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_filter_event">filterEvent</string>
+    <string name="title_activity_add_event">addEvent</string>
+    <string name="title_activity_map_init">MapInit</string>
+    <string name="google_app_id">621362921806</string>
+    <string name="title_activity_firebase_init">FirebaseInit</string>
+    <string name="title_activity_event_list_names">EventListNames</string>
+    <string name="title_activity_filter_event_by_locatin">FilterEventByLocatin</string>
+</resources>

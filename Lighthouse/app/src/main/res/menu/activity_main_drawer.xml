@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Events_Map"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Events Map" />
+        <item
+            android:id="@+id/Events_List"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="List of Events" />
+        <item
+            android:id="@+id/Event_Add"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Add an Event" />
+        <item
+            android:id="@+id/Event_Filter"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Filter the Events" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
